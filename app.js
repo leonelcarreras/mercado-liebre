@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const PORT = process.env.PORT || 4001;
 
 app.use(express.static("public"));
 app.listen(4001, () => console.log("running on port 4001"));
