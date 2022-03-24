@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bienvenidxs a MercadoLiebre</title>
+    <script src="https://kit.fontawesome.com/868ff58ad9.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styleuser.css"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="logo">
+          <a href="/">
+          <img
+            src="images/mercadoliebre-solo.png"
+            alt="Logo de MercadoLiebre"
+          />
+          </a>
+        </div>
+        
+    </header>
+
+
+
+
+    <body>
+
+        <section class="formulario">
+          <div class="form-container">
+            <div class="input-box">
+
+              <form action="/" method="login">
+                <h2>Registro de Usuario</h2>
+
+                <div class="input-container">
+                  <p>Apellido y Nombre</p>                     
+                  <input type="text" name="Apellido y Nombre" required pattern=".[a-z].{4,8}" >
+                  <label for="Apellido y Nombre"></label>
+                </div>
+
+                <div class="input-container">
+                  <p>Nombre de Usuario</p>                     
+                  <label for="Nobre de Usuario"></label> 
+                  <input type="text" name="Nombre de Usuario"  class="burbuja" >
+                </div>
+
+                <div class="input-container">
+                  <p>Email</p>                     
+                  <label for="Email"></label>     
+                  <input type="email" name="Email" class="burbuja">
+                </div>
+
+                <div class="input-container">
+                  <p>Fecha de Nacimiento</p>                      
+                  <input type="date" name="Fecha de Nacimiento" id="Fecha de Nacimiento" class="burbuja" required>
+                </div>
+
+                <div class="input-container">
+                  <p>Domicilio</p>                      
+                  <label for="Domicilio"></label>      
+                  <input type="text" name="Domicilio" class="burbuja" required>
+                </div>
+
+                <br>
+                <p align="center">Perfil del Usuario</p>
+                <label>
+                  <input type="radio" name="radio" checked/>
+                  <span>Comprador</span>
+                </label>
+                <label>
+                  <input type="radio" name="radio"/>
+                  <span>Vendedor</span>
+                </label>
+
+                <br><br>
+                <p align="center">Intereses</p>
+                <label for="Intereses"></label> 
+                <div >  <input type="checkbox" value="Tecnologia" name="Intereses" > <label for="Tecnologia">Tecnología</label></div >
+                <div>  <input type="checkbox" value="Moda" name="Intereses" > <label for="Moda"> Moda</label></div>
+                <div>  <input type="checkbox" value="Casa" name="Intereses" > <label for="Casa"> Casa</label> </div>
+                <div>  <input type="checkbox" value="Jardin" name="Intereses" > <label for="Jardin"> Jardín</label> </div>
+                <br>
+                <p align="center">Foto de perfil</p>
+                <input type="file" name="FotoPerfil" id="">
+
+                <div class="input-container">
+                  <p>Contraseña</p>
+                  <label for="Contraseña"></label> 
+                  <input type="password" name="password" class="burbuja" required pattern=".{6,8}"  title = "La contraseña debe tener una extension de entre 6 y 8 caracteres"> 
+                </div>
+
+                <div class="input-container">
+                  <p>Repetir Contraseña</p>
+                  <label for="Confirmar contraseña"></label>     
+                  <input type="password" name="confirm password" required pattern=".{6,8}" title = "La contraseña debe tener una extension de entre 6 y 8 caracteres" class="burbuja">
+                </div>
+
+                <div class="button-container">
+                  <button type="submit">Guardar</button>
+                </div>
+                <div class="button-container">
+                  <button type="reset">Borrar</button>
+                </div>
+
+
+            </div>
+          </div>
+        </section>
+
+    </body>
+
+
+
+    <footer>
+      <div class="margin-register">
+        <section>  
+    
+          <article>
+              <div class="icon-card">
+                  <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <h3 align="center">
+                  Pagá con tarjeta o en efectivo
+              </h3> 
+              <h5 align="center">
+                  Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                  puntos de pago. ¡Y siempre es seguro!
+              </h4>
+          </article>
+    
+          <article>
+              <div class="icon-card">
+                  <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <h3 align="center">
+                  Envío gratis desde $ 2.500
+              </h3> 
+              <h5 align="center">
+                  Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                  puntos de pago. ¡Y siempre es seguro!
+              </h4>
+          </article>
+    
+          <article>
+              <div class="icon-card">
+                  <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <h3 align="center">
+                  Pagá con tarjeta o en efectivo
+              </h3> 
+              <h5 align="center">
+                  Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                  puntos de pago. ¡Y siempre es seguro!
+              </h5>
+          </article>
+
+        </section>
+    
+      </div>
+      </footer>
+
+  </html>

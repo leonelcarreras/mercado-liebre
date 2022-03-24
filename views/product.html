@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bienvenidxs a MercadoLiebre</title>
+    <script src="https://kit.fontawesome.com/868ff58ad9.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styleuser.css"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="logo">
+          <a href="/">
+          <img
+            src="images/mercadoliebre-solo.png"
+            alt="Logo de MercadoLiebre"
+          />
+          </a>
+        </div>
+        
+    </header>
+
+
+
+
+    <body>
+
+        <section class="formulario-product">
+          <div class="form-container-product">
+            <div class="input-box">
+                <form action="/" method="login">
+                <h2>Alta de Producto</h2>
+                <div class="input-container">
+                    <p>Nombre del Producto</p>
+                    <label for="Nombre del Producto"></label>     
+                    <input type="text" name="Nombre del Producto" required pattern=".[a-z].{4,30}"    >                
+                </div>
+                <div class="input-container">
+                    <p>Precio del Producto</p>
+                    <label for="Precio del producto"></label> 
+                    <input type="number" name="PrecioProd">
+                </div>
+
+                    <p align="center">¿Está en oferta?</p>
+                    <label>
+                        <input type="radio" name="radio" checked/>
+                        <span>Si</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio"/>
+                        <span>No</span>
+                    </label>
+
+                
+                    <p>Categorias</p>                 
+                    <label for="Categoria"></label>           
+                    <div >  <input type="checkbox" value="Electro" name="Categoria" > <label for="Electro"> Electro</label></div >
+                    <div>  <input type="checkbox" value="Moda" name="Categoria" > <label for="Moda"> Moda</label></div>
+                    <div>  <input type="checkbox" value="Casa" name="Categoria" > <label for="Casa"> Casa</label> </div>
+                    <div>  <input type="checkbox" value="Jardin" name="Categoria" > <label for="Jardin"> Jardin</label> </div>
+
+                    
+                    <br>
+                    <p align="center">Ciudad<p>
+                    <div>
+                        <label for="Ciudad"></label>
+                    </div>
+                    <div>
+                        <select name="Ciudad" class="burbuja">                 
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Ciudad De Buenos Aires">Ciudad De Buenos Aires</option>
+                            <option value="Rosario">Rosario</option>
+                            <option value="Cordoba">Cordoba</option>                          
+                        </select>
+                    </div>  
+
+
+                    <p align="center">Descripción del producto<p>
+                    <textarea name="descripcion del producto" cols="30" rows="7"></textarea>
+                    
+                    <div class="img-container">
+                    <img src="images/img-samsung-galaxy-s10.jpg">
+                    </div>
+                    
+                    <div class="button-container">
+                        <button type="submit"   class="botton">Guardar  </button>  
+                    </div>
+                    <div class="button-container">
+                        <button type="reset"   class="botton">Borrar   </button >
+                    </div>
+
+
+            </div>
+          </div>
+        </section>
+
+    </body>
+
+
+
+    <footer>
+        <div class="margin-product">
+        <section>  
+    
+          <article>
+              <div class="icon-card">
+                  <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <h3 align="center">
+                  Pagá con tarjeta o en efectivo
+              </h3> 
+              <h5 align="center">
+                  Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                  puntos de pago. ¡Y siempre es seguro!
+              </h4>
+          </article>
+    
+          <article>
+              <div class="icon-card">
+                  <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <h3 align="center">
+                  Envío gratis desde $ 2.500
+              </h3> 
+              <h5 align="center">
+                  Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                  puntos de pago. ¡Y siempre es seguro!
+              </h4>
+          </article>
+    
+          <article>
+              <div class="icon-card">
+                  <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <h3 align="center">
+                  Pagá con tarjeta o en efectivo
+              </h3> 
+              <h5 align="center">
+                  Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                  puntos de pago. ¡Y siempre es seguro!
+              </h5>
+          </article>
+
+        </section>
+    
+    
+        </div>
+      </footer>
+
+  </html>
